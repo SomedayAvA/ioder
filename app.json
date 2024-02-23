@@ -21,6 +21,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1bd837a-cd03-4367-85bc-b483dcd732fc"
+      }
+    },
+    "android": {
+      "package": "com.someday.withBottomTabs"
     }
   }
 }

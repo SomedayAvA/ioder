@@ -1,5 +1,7 @@
 import React from "react";
 import { Text, themeColor, useTheme } from "react-native-rapi-ui";
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
 export default (props) => {
   const { isDarkmode } = useTheme();
   return (
